@@ -9,9 +9,11 @@ function countVowels(str) {
   }
   return count;
 }
+console.log(countVowels('hello world'));
 
 
 // a function to remove spaces in a string
 function removeSpaces(str) {
   return str.split(' ').join('');
 }
+console.log(removeSpaces('hello world'));
